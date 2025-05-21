@@ -34,7 +34,7 @@
 .PARAMETER VerboseTable
   Вывести детальную таблицу с временем и скоростью записи файлов.
 #>
-[CmdletBinding(SupportsShouldProcess=$true, ConfirmImpact='Low', HelpUri='https://github.com/YourRepo/MakeSparseZip')]
+[CmdletBinding(SupportsShouldProcess=$true, ConfirmImpact='Low', HelpUri='https://github.com/TheKilloboy/MakeSparseZip-Interactive')]
 param(
     [int]      $Count = $null,
     [string]   $PathPrefix = '',
@@ -57,7 +57,7 @@ param(
 
 function Show-Banner {
     Clear-Host
-    Write-Host '╔════ Генератор ZIP ════════╗' -ForegroundColor Cyan
+    Write-Host '╔════ Генератор ZIP ═════════╗' -ForegroundColor Cyan
     Write-Host '║  MakeSparseZip Interactive ║' -ForegroundColor Cyan
     Write-Host '╚════════════════════════════╝' -ForegroundColor Cyan
 }
