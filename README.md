@@ -30,7 +30,7 @@
 | `-Attributes`   | Установить атрибуты файлов (Hidden, ReadOnly...) |
 | `-Timestamp`    | Дата/время для файлов |
 
-## 🖥️ Пример запуска
+## 🖥️ Примеры запуска
 
 ```powershell
 .\MakeSparseZip.ps1 -Count 5 -Size 100M -Output test.zip -Compression Optimal -Verbose
